@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sec{
+    padding-top: 50px;
+    /* background-color: aquamarine; */
+}
+
+.sec .sec-container .opacity{
+    position: absolute;
+    height: 722px;
+    width: 100%;
+    background-color: black;
+    opacity: 25%;
+}
+
+.sec .sec-container .image{
+    width: 100%;
+    background-color: black;
+}
+
+.sec .sec-container .content{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 180px;
+    width: 70%;
+    padding: 0 20vh;
+    /* letter-spacing: 10px; */
+}
+
+.sec .sec-container .content h1{
+    line-height: 65px;
+    font-weight: 800;
+    font-size: 54px;
+    color: white;
+}
+
+.sec .sec-container .content p{
+    color: white;
+    font-size: 15.8px;
+    padding-top: 25px;
+    line-height: 25px;
+    margin-right: 180px;
+    font-weight: 600;
+}
+
+.sec .sec-container .content a{
+    position: absolute;
+    margin-top: 25px;
+    color: #F8C51C;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.sec .sec-container .content a:hover{
+    color: #cfa51c;
+    border-bottom: solid 2px #d9ac1a;
+}
+
+.filter{
+    position: absolute;
+    /* display: flex; */
+    width: 100%;
+    margin-top: -210px;
+}
+
+.filter .inner-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0 50px;
+    /* background-color: aqua; */
+}
+
+.filter .inner-container .block{
+    background-color: white;
+    padding: 25px 68.7px;
+    border-right: solid 3px rgb(182, 182, 182);
+    border-right-style: dashed;
+    /* background-color: aqua; */
+}
+
+.filter .inner-container .tiket{
+    display: flex;
+    background-color: rgba(245,326,248,255);
+    padding: 16.5px 30px;
+    color: rgba(198,202,206,255);
+    letter-spacing: 1.5px;
+}
+
+.filter .inner-container .tiket .simbol{
+    position: absolute;
+    margin-top: -7px;
+    /* padding-bottom: 0px; */
+    margin-left: 37px;
+    /* color: #cfa51c; */
+    font-size: 35px;
+}
+
+.filter .inner-container .block h3{
+    margin-top: -10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.filter .inner-container .block p:hover{
+    border-bottom:solid 5px rgba(248,197,28,255);
+}
+
+.filter .inner-container .block span{
+    transform: rotate(-90deg);
+    /* -o-transform: rotate(90deg); */
+}
+
+.filter .inner-container .block p{
+    transition: 0.3s ease-out;
+    border-bottom:solid 5px #d4cbae00;
+    cursor: pointer;
+    font-size: 15.8px;
+}
+
+.filter .inner-container .tiket h3{
+    transition: 0.2s ease-out;
+    text-transform: uppercase;
+    /* background-color: aquamarine; */
+    margin-top: 26px;
+}
+
+.filter .inner-container .tiket h3:hover{
+    color: rgb(0, 0, 0);
+}
+
+.filter .inner-container .tiket .masuk{
+    border-bottom:solid 5px #cfa51c00;
+}
+
+.filter .inner-container .tiket .masuk:hover{
+    border-bottom:solid 5px rgba(248,197,28,255);
+    cursor: pointer;
+    color: black;
+}
+
+.alert .block{
+    width: 100%;
+    margin-top: -5px;
+    height: 30px;
+    background-color: rgba(248,197,28,255);
+}
+
+.alert .content{
+    position: absolute;
+    margin-top: -25px;
+    display: flex;
+    /* background-color:blueviolet; */
+    width: 100%;
+    padding: 0 140px;
+}
+
+.alert .content h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.alert .content h3 span{
+    padding-left: 50px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.liveAquarium{
+    height: 100vh;
+}
+
+.liveAquarium .inner-container .content{
+    /* background-color: aqua; */
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 13px;
+    margin: 0 400px;
+}
+
+.liveAquarium .inner-container{
+    padding-top: 50px;
+}
+
+.liveAquarium .content h1{
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.liveAquarium .vid1{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+
+.liveAquarium .vid1 .block{
+    position: absolute;
+    background-color: #ffffff;
+    width: 50%;
+    height: 100%;
+    margin-left: 40%;
+    margin-top: -360px;
+}
+
+.liveAquarium .vid1 .gelap{
+    position: absolute;
+    /* background-color: #000000; */
+    border: 10px solid rgba(248,197,28,0);
+    background-color: rgba(0, 0, 0, 0);
+    width: 40%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: -360px;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    color: #ffffff;
+    opacity: 0%;
+}
+
+.liveAquarium .vid1 .gelap h1{
+    /* background-color: #d9ac1a; */
+    margin: 130px 0;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    color: #ffffff;
+}
+
+.liveAquarium .vid1 .gelap h1 span{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgba(248,197,28,255);
+}
+
+.liveAquarium .vid1 .gelap:hover{
+    border: 10px solid rgba(248,197,28,255);
+    background-color: rgba(0, 0, 0, 0.331);
+    opacity: 100%;
+}
+
+
+.liveAquarium .vid1 video{
+    width: 50%;
+    /* padding-bottom: 10px; */
+    display: block;
+    cursor: pointer;
+}
+
+.liveAquarium .videos-container{
+    /* width: 100%; */
+    /* background-color: aqua; */
+    padding: 0 215px;
+}
+
+.liveAquarium .vid2{
+    position: absolute;
+    margin-left: 545px;
+}
+
+.liveAquarium .vid2 video,
+.liveAquarium .vid3 video{
+    width: 35%;
+    display: block;
+    cursor: pointer;
+    border: 10px solid #cfa51c00;
+}
+
+.liveAquarium .vid2 video:hover,
+.liveAquarium .vid3 video:hover{
+    /* width: 40%; */
+    opacity: 90%;
+    display: block;
+    cursor: pointer;
+    border: 10px solid rgba(248,197,28,255);
+}
+
+.liveAquarium .vid2 .gelap,
+.liveAquarium .vid3 .gelap{
+    width: 32.6%;
+    text-align: center;
+    height: 100%;
+    padding: 45px 0;
+    margin-left: 10px;
+    margin-top: -150px;
+    color: white;
+    opacity: 100;
+}
+
+.liveAquarium .vid2 .gelap h1,
+.liveAquarium .vid3 .gelap h1{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+}
+
+.liveAquarium .vid2 .gelap h1 span,
+.liveAquarium .vid3 .gelap h1 span{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: rgba(248,197,28,255);
+}
+
+.liveAquarium .vid3{
+    position: absolute;
+    margin-top: 205px;
+    margin-left: 545px;
+}
+
+.liveAquarium .vid4{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 830px;
+}
+
+.liveAquarium .vid5{
+    position: absolute;
+    margin-top: 205px;
+    margin-left: 830px;
+}
+
+.liveAquarium .vid4 video,
+.liveAquarium .vid5 video{
+    width: 55%;
+    display: block;
+    cursor: pointer;
+    border: 10px solid #cfa51c00;
+}
+
+.liveAquarium .vid4 video:hover,
+.liveAquarium .vid5 video:hover{
+    /* width: 40%; */
+    display: block;
+    opacity: 90%;
+    cursor: pointer;
+    border: 10px solid rgba(248,197,28,255);
+}
+
+.liveAquarium .vid4 .gelap,
+.liveAquarium .vid5 .gelap{
+    background-color: aqua;
+    width: 50.8%;
+    text-align: center;
+    height: 100%;
+    padding: 22px 0px;
+    margin-left: 10px;
+    margin-top: -125px;
+    color: white;
+    opacity: 100;
+}
+
+.liveAquarium .vid4 .gelap h1,
+.liveAquarium .vid5 .gelap h1{
+    font-size: 22px;
+}
+
+.liveAquarium .vid4 .gelap h1 span,
+.liveAquarium .vid5 .gelap h1 span{
+    text-transform: uppercase;
+    font-size: 18px;
+    /* background: #cfa51c; */
+    color: rgba(248,197,28,255);
+}
+
+.click h3{
+    background-color: rgba(248,197,28,255); 
+    padding: 10px;
+    margin-left: 39.9%;
+    position: absolute;
+    margin-top: 410px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 20%;
+    text-align: center;
+    transition: 0.2s ease;
+}
+
+.click h3:hover{
+    cursor: pointer;
+    background-color: #cfa51c;
+}
+
+.animal {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 0 215px;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, 347.6px);
+    align-items: start;
+}
+
+.grid-item {
+    background-color: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.grid-item:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+.card-img {
+    display: block;
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-header {
+    /* background-color: aqua; */
+    font-size: 24px;
+    font-weight: 700;
+    color: #0d0d0d;
+    margin-bottom: 1rem;
+}
+
+.card-btn {
+    font-weight: 800;
+    display: block;
+    width: 100%;
+    /* text-align: center; */
+    padding: 1rem;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #373B44;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+  
+.card-btn:hover,
+.card-btn:active {
+    background-color: #476fb0;
+}
+  
+.card-btn:hover span,
+.card-btn:active span {
+    margin-left: 1.5rem;
+}
+
+.tittle{
+    text-align: center;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
+.click2 h3{
+    background-color: rgba(248,197,28,255); 
+    padding: 10px;
+    margin-left: 39.9%;
+    position: absolute;
+    margin-top: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 20%;
+    text-align: center;
+    transition: 0.2s ease;
+}
+
+.click2 h3:hover{
+    cursor: pointer;
+    background-color: #cfa51c;
+}
+
+.third{
+    height: 80vh;
+}
+
+
+footer{
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 100px;
+    display: flex;
+}
+
+.footer-container{
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 0 50px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .social_icon, footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .social_icon li,
+footer .menu li
+{
+    list-style: none;
+
+}
+
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+
+footer .logo img{
+    width: 200px;
+}
+
+footer .social_icon li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    transition: 0.5s;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+
+footer .menu li a
+{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    color: white;
+    margin: 0 10px;
+}
+
+footer .menu li a:hover{
+    opacity: 1;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../ASSET/global-assets/wave.png);
+    background-size: 1000px 100px;
+}
+
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: wave 4s linear infinite;
+}
+
+footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: wave_2 4s linear infinite;
+}
+
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: wave 3s linear infinite;
+}
+
+footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: wave_2 3s linear infinite;
+}
+
+@keyframes wave{
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+
+@keyframes wave_2{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+
+}

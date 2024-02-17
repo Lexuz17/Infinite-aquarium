@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.animal{
+    /* min-height: 1000vh; */
+    box-sizing: border-box;  
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    /* text-align: center; */
+}
+
+.animal .banner img{
+    margin-top: 100px;
+    width: 100%;
+}
+
+.animal .inner-container{
+    /* background-color: aqua; */
+    margin: 0 110px;
+}
+
+.animal .content-satu{
+    position: absolute;
+    margin-top: -200px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.animal .content-satu h3{
+    font-size: 17px;
+    padding-bottom: 25px;
+    font-weight: 600;
+}
+
+.animal .content-satu h1{
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+.animal .content-satu p a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.animal .content-satu p{
+    font-size: 13px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+.animal .content-satu p a:hover{
+    border-bottom: 3px solid rgba(248,197,28,255);
+}
+
+.animal .backhome{
+    padding-top: 20px;
+}
+
+.animal .backhome a{
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+.animal .backhome .line{
+    height: 4px;
+    margin-top: 30px;
+    width: 8%;
+    background-color: rgba(248,197,28,255);
+}
+
+.animal .backhome a:hover{
+    color: rgba(248,197,28,255);
+}
+
+.animal .details .detail h2{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.animal .definition{
+    padding: 40px 0;
+    border-bottom: 2px solid rgb(206, 206, 206);
+}
+.animal .detail .logo{
+    color: rgb(23, 2, 161);
+    font-size: 50px;
+    padding-bottom: 3px;
+}
+
+.animal .detail{
+    /* background-color: aquamarine; */
+    /* margin-right: -50px; */
+    text-align: center;
+    padding: 40px 10px;
+    width: 293px;
+    margin-right: 28px;
+}
+
+.animal .detail p{
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.animal .details{
+    display: inline-flex;
+    /* background-color: aqua; */
+    border-bottom: 2px solid rgb(206, 206, 206);
+}
+
+.animal .more-detail ul{
+    margin: 30px 80px;
+    /* background-color: aqua; */
+    font-weight: 500;
+    list-style-position: outside;
+    padding-left: 70px;
+    color: #53556c;
+}
+.animal .more-detail ul li{
+    font-size: 14px;
+    /* background-color: yellow; */
+    margin-right: 200px;
+    padding-bottom: 10px;
+}
+
+.more-detail .title{
+    padding: 30px;
+    font-weight: 900;
+}
+
+.more-detail h3{
+    padding-left: 80px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #53556c;
+}
+
+.done{
+    padding-top: 50px;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.done a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.done a:hover{
+    font-size: 14px;
+    color:  rgba(248,197,28,255);
+}
+
+
+footer{
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 140px;
+    display: flex;
+}
+
+.footer-container{
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 0 50px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .social_icon, footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .social_icon li,
+footer .menu li
+{
+    list-style: none;
+
+}
+
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+
+footer .logo img{
+    width: 200px;
+}
+
+footer .social_icon li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    transition: 0.5s;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+
+footer .menu li a
+{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    color: white;
+    margin: 0 10px;
+}
+
+footer .menu li a:hover{
+    opacity: 1;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../ASSET/global-assets/wave.png);
+    background-size: 1000px 100px;
+}
+
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: wave 4s linear infinite;
+}
+
+footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: wave_2 4s linear infinite;
+}
+
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: wave 3s linear infinite;
+}
+
+footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: wave_2 3s linear infinite;
+}
+
+@keyframes wave{
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+
+@keyframes wave_2{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+
+}
